@@ -1,0 +1,57 @@
+h1 {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+#paragraphe2::first-letter,
+#paragraphe3::first-letter,
+#paragraphe4::first-letter,
+#paragraphe5::first-letter {
+    color: green;
+    font-size: 2em;
+    font-style: italic;
+    text-align: justify;
+}
+
+
+#paragraphe1::first-letter {
+    color: purple;
+    font-size: 2em;
+    font-style: italic;
+    text-align: justify;
+}
+
+.Consignes:hover {
+    color: rgb(149, 0, 255);
+
+}
+
+#bloc {
+    border: 2px solid #daa520;
+    border-radius: 10px;
+    width: 600px;
+    padding: 10px;
+    background-image: url(./parchemin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.paragraphe {
+    color: #1a1a1a;
+}
+
+
+.paragraphe .lien {
+    color: inherit;
+    text-decoration: underline wavy red;
+    transition: all 0.3s ease;
+}
+
+.paragraphe .lien:hover {
+    text-decoration: none;
+    background-color: yellow;
+}
